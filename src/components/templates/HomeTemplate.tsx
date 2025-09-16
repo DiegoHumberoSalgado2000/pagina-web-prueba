@@ -27,7 +27,7 @@ export const HomeTemplate = () => {
             <Button variant="gray">
               Crear cuenta y administrar tus preferencias
             </Button>
-            <Button variant="primary">Crear cuenta PSN</Button>
+            <Button variant="secondary">Crear cuenta PSN</Button>
           </div>
         </section>
         <ConnectWorldSection />
