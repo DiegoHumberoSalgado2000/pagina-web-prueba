@@ -2,34 +2,36 @@ import { Navbar } from "../organisms/Navbar";
 import { Hero } from "../organisms/Hero";
 import { Footer } from "../organisms/Footer";
 import { Button } from "../atoms/Button";
-
+import { ConnectWorldSection } from "../organisms/ConnectWorldSection";
 export const HomeTemplate = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <div className="container grid bg-gray-100">
-        <div className="py-12 max-w-2xl text-center mx-auto">
-          <h2 className="text-2xl font-bold mb-4">
-            Inicia sesion en tu cuenta de PSN
+
+      <main className="bg-gray-100">
+        <section className="max-w-2xl text-center mx-auto py-16">
+          <h2 className="text-3xl font-bold mb-4">
+            Inicia sesión en tu cuenta de PSN
           </h2>
           <p className="text-gray-600 mb-7">
-            Inicia sesion en playstation.com con los detalles de tu cuenta de
-            PSN para ver ofertas personalisadas para ti, administra la
-            configuracion de la cuenta y mucho mas.
+            Inicia sesión en playstation.com con los detalles de tu cuenta de PSN
+            para ver ofertas personalizadas para ti, administrar la configuración
+            de la cuenta y mucho más.
           </p>
           <p className="text-gray-600">
-            ¿No tienes cuenta ? haz click en el boton de abajo para comenzar con
-            un anueva cunta de PSN.
+            ¿No tienes cuenta? Haz clic en el botón de abajo para crear una nueva
+            cuenta de PSN.
           </p>
           <div className="flex flex-row gap-4 justify-center py-4">
             <Button variant="gray">
-              Crear cuenta y adminsitra tus preferencias
+              Crear cuenta y administrar tus preferencias
             </Button>
-            <Button variant="secondary">Crea una cuenta PSN</Button>
+            <Button variant="primary">Crear cuenta PSN</Button>
           </div>
-        </div>
-      </div>
+        </section>
+        <ConnectWorldSection />
+      </main>
 
       <Footer />
     </>

@@ -1,7 +1,7 @@
 export const Footer =()=>{
     return(
         <footer className="bg-blue-800 text-white text-sm">
-            <div className="max-w-7xl mx-auto px-6 py-12">
+            <div className="max-w-full mx-auto px-20 py-12">
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-10">
                     <div>
                         <h4 className="font-semibold mb-3">Acerca de</h4>
